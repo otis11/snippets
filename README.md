@@ -3,11 +3,7 @@ https://github.com/yt-dlp/yt-dlp
 
 **Video to Audio**
 ```bash
-./yt-dlp -f mp4 --verbose -x --user-agent "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.6533.103 Mobile Safari/537.36" "URL"
-```
-**Video to Audio MacOS**
-```bash
-./yt-dlp_macos -f mp4 --verbose -x --user-agent "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.6533.103 Mobile Safari/537.36" "URL"
+./yt-dlp -f mp4 --audio-quality 0 --yes-playlist --verbose "URL"
 ```
 
 ### Count lines of files in directory unix
